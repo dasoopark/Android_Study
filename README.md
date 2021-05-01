@@ -11,7 +11,6 @@
 
 * [오늘의 코드](https://todaycode.tistory.com/) - by Kim Juhwan님 
   - Android 중요한 개념이 잘 정리되어 있음. (Retrofit 통신, JetPack, Room사용법/예제, MVVM, 뷰 모델, CallBack) 
-  - 
 * [Tags-쾌락코딩](https://wooooooak.github.io/blog/tags/) - by Github: wooooooak님
   - Android 중/고급 개념, 코틀린 중요 문법 수록
 
