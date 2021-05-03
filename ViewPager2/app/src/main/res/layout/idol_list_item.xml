@@ -16,4 +16,7 @@
         app:srcCompat="@drawable/idol1" />
 
 
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
