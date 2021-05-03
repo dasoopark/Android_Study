@@ -7,7 +7,7 @@
         <!-- user를 UserProfile에 바인딩~~! type은 바인딩할 경로 -->
         <variable
             name="user"
-            type="kr.co.korearental.MainActivity.UserProfile" />
+            type="kr.co.korearental.databinding.UserProfile" />
     </data>
 
     <LinearLayout
