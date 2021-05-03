@@ -4,5 +4,4 @@ package kr.co.korearental.databinding
 public class UserProfile(firstName:String, lastName:String){
    var firstName:String = firstName
    var lastName:String= lastName
-
 }
