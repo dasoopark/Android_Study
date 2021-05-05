@@ -12,7 +12,8 @@ class MainActivity : AppCompatActivity() {
         enabled true
     }
      */
-    private lateinit var binding:ActivityMainBinding
+    private lateinit var binding:ActivityMainBinding //activity_main.xml 을 ActivityMainBinding 으로
+                                                    // 표현해서 바인딩 시켜주는것임.!!!!!!!!!!!
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

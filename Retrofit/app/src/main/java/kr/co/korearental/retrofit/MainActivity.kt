@@ -32,7 +32,8 @@ class MainActivity : AppCompatActivity(), CompletionListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater) // 리사이클러뷰 설정 가능 하게함 XML
+
+        binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.rvBaeminNotice.apply {
@@ -45,6 +46,7 @@ class MainActivity : AppCompatActivity(), CompletionListener {
 
         binding.btnLoadNextPage.setOnClickListener {// 버튼을 누를 때 마다
             baeminRepository.loadBaeminNotice(++page, this) // 다음 페이지를 로드한다.
+
         }
     }
 

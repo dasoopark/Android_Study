@@ -15,9 +15,7 @@ JSON에 정해져 있는 대로
 
 // title과 created만 필요할 때는 이렇게 사용
 data class Baemin(val data: Data)
-
 data class Data(val content: ArrayList<Content>)
-
 data class Content(
     /*
     @SerializedName은 Gson 라이브러리에서 제공하는 어노테이션인데

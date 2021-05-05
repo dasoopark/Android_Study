@@ -8,7 +8,7 @@ import kr.co.korearental.retrofit.databinding.ItemNoticeBinding
 class NoticeAdapter : RecyclerView.Adapter<NoticeAdapter.NoticeViewHolder>() {
     private var items = ArrayList<Content>()
 
-    //binding 으로 인해 ItemNoticeBinding 을 받아
+    //binding 받기 위해 item_notice => ItemNoticeBinding 표현식으로 바꿔서 상속
     inner class NoticeViewHolder(private val binding: ItemNoticeBinding): RecyclerView.ViewHolder(binding.root){
         fun bind(notice: Content){
 
