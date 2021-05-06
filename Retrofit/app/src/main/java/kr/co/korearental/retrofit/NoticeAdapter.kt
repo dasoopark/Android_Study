@@ -9,7 +9,7 @@ class NoticeAdapter : RecyclerView.Adapter<NoticeAdapter.NoticeViewHolder>() {
     private var items = ArrayList<Content>()
 
     //binding 받기 위해 item_notice => ItemNoticeBinding 표현식으로 바꿔서 상속
-    inner class NoticeViewHolder(private val binding: ItemNoticeBinding): RecyclerView.ViewHolder(binding.root){
+    inner class NoticeViewHolder(private val binding:ItemNoticeBinding): RecyclerView.ViewHolder(binding.root){
         fun bind(notice: Content){
 
             binding.tvTitle.text = notice.title
